@@ -1,0 +1,24 @@
+{
+  "name": "electron-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.12"
+  },
+  "main": "src/electron/electron-starter.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-dev": "nf start"
+  },
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "foreman": "^2.0.0"
+  }
+}
