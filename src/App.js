@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import logo from './logo.svg';
 import DocumentsContainer from './components/DocumentsContainer';
+import CommentsContainer from './components/CommentsContainer';
 import './App.css';
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
         return (
             <div className="App">
                 <DocumentsContainer motd={this.state.motd} />
+                <CommentsContainer />
             </div>
         );
     }

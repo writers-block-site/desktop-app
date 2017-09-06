@@ -1,6 +1,14 @@
 .documents {
+    float: left;
     color: #FEFEFE;
     background: #1e9cbc;
     height: 100vh;
-    width: 66%;
+    width: 66.66%;
+}
+
+.comments {
+    float: left;
+    background: #FEFEFE;
+    width: 33.33%;
+    height: 100vh;
 }
